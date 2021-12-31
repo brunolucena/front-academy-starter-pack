@@ -1,0 +1,30 @@
+.menu-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #0a0a0a;
+  color: #ffffff;
+  border-bottom: 1px solid #3b3b3b;
+}
+
+.menu-container .menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  width: 100%;
+  padding: 28px;
+}
+
+.menu-container .right {
+  display: flex;
+  align-items: center;
+}
+
+.menu-container .links-container {
+  display: flex;
+  align-items: center;
+}
