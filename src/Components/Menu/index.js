@@ -8,7 +8,6 @@ function Menu() {
       <div className="menu">
         <div>
           <Logo />
-          Teste
         </div>
 
         <div className="links-container">
