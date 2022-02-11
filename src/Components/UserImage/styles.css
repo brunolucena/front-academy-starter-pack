@@ -1,0 +1,14 @@
+.user-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid #43B0FF;
+  border-radius: 50%;
+  overflow: hidden;
+  height: 125px;
+  width: 125px;
+}
+
+.user-image-container img {
+  height: 130%;
+}

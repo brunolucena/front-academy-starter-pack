@@ -1,0 +1,15 @@
+.center-content-container {
+  display: flex;
+}
+
+.center-content-container .center-content-container__left {
+  flex: 2;
+}
+.center-content-container .center-content-container__right {
+  flex: 3;
+  margin-left: 20px;
+}
+
+.center-content-container .center-content-container__right > *:not(:first-child) {
+  margin-top: 17px;
+}

@@ -1,0 +1,17 @@
+.social-media-container {
+  display: flex;
+}
+
+.social-media-container > *:not(:first-child) {
+  margin-left: 13px;
+}
+
+.social-media-container a.social-media-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 12px;
+  background: #212121;
+  border-radius: 10px;
+  width: 36px;
+}

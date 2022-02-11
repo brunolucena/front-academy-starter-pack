@@ -1,0 +1,16 @@
+.last-projects-container .last-projects__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #4b4b4b;
+}
+
+.last-projects-container .last-projects__content {
+  display: flex;
+  align-items: center;
+  margin-top: 12px;
+}
+.last-projects-container .last-projects__content > *:not(:first-child) {
+  margin-left: 25px;
+}

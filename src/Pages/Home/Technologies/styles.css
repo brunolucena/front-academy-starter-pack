@@ -1,0 +1,13 @@
+.techonologies-container .techonologies__header {
+  padding-bottom: 12px;
+  border-bottom: 1px solid #4b4b4b;
+}
+
+.techonologies-container .techonologies__content {
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+}
+.techonologies-container .techonologies__content > *:not(:first-child) {
+  margin-left: 25px;
+}

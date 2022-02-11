@@ -1,0 +1,24 @@
+.home-container {
+  background-color: #242424;
+  min-height: 100vh;
+  color: #ffffff;
+}
+
+.home-container .home-container__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 950px;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
+.home-container .home-container__content .home-container__content__bottom {
+    display: flex;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.home-container .home-container__content .home-container__content__bottom .logo-container {
+  margin-left: 10px;
+}
