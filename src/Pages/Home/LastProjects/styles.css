@@ -8,9 +8,11 @@
 
 .last-projects-container .last-projects__content {
   display: flex;
+  flex-direction: column;
   align-items: center;
   margin-top: 12px;
+  padding-right: 85px;
 }
 .last-projects-container .last-projects__content > *:not(:first-child) {
-  margin-left: 25px;
+  margin-top: 17px;
 }

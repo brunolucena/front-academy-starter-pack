@@ -1,0 +1,19 @@
+a.project-container {
+  display: flex;
+  width: 100%;
+  border-radius: 10px;
+  background-color: #1d1d1d;
+  overflow: hidden;
+}
+
+a.project-container img {
+  height: 55px;
+}
+
+a.project-container .project__text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+  width: 100%;
+}
