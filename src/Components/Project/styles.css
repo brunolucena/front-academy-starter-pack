@@ -4,6 +4,7 @@ a.project-container {
   border-radius: 10px;
   background-color: #1d1d1d;
   overflow: hidden;
+  text-decoration: none;
 }
 
 a.project-container img {

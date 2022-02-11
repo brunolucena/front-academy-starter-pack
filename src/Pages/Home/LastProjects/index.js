@@ -7,7 +7,7 @@ import "./styles.css";
 
 function LastProjects() {
   return (
-    <Card>
+    <Card paddingBottom={0}>
       <div className="last-projects-container">
         <div className="last-projects__header">
           <Heading fontSize={24}>Últimos projetos</Heading>
@@ -16,27 +16,29 @@ function LastProjects() {
           </Heading>
         </div>
 
-        <div className="last-projects__content">
-          <Project
-            imageUrl={FrontAcademy}
-            link="https://github.com/brunolucena/front-academy"
-            title="Front Academy"
-          />
-          <Project
-            imageUrl={FrontAcademy}
-            link="https://github.com/brunolucena/front-academy"
-            title="Front Academy"
-          />
-          <Project
-            imageUrl={FrontAcademy}
-            link="https://github.com/brunolucena/front-academy"
-            title="Front Academy"
-          />
-          <Project
-            imageUrl={FrontAcademy}
-            link="https://github.com/brunolucena/front-academy"
-            title="Front Academy"
-          />
+        <div className="last-projects__wrapper">
+          <div className="last-projects__content">
+            <Project
+              imageUrl={FrontAcademy}
+              link="https://github.com/brunolucena/front-academy"
+              title="Front Academy"
+            />
+            <Project
+              imageUrl={FrontAcademy}
+              link="https://github.com/brunolucena/front-academy"
+              title="Front Academy"
+            />
+            <Project
+              imageUrl={FrontAcademy}
+              link="https://github.com/brunolucena/front-academy"
+              title="Front Academy"
+            />
+            <Project
+              imageUrl={FrontAcademy}
+              link="https://github.com/brunolucena/front-academy"
+              title="Front Academy"
+            />
+          </div>
         </div>
       </div>
     </Card>

@@ -11,18 +11,20 @@ import "./styles.css";
 
 function UserProfile() {
   return (
-    <Card>
+    <Card height="100%">
       <div className="user-profile-container">
         <div className="user-profile-container__left__user-image">
           <UserImage />
         </div>
 
         <div className="user-profile-container__left__content">
-          <Heading fontSize={28}>Bruno Alves Lucena</Heading>
+          <div>
+            <Heading fontSize={28}>Bruno Alves Lucena</Heading>
 
-          <Heading fontSize={20} fontWeight={400} color="#5DB9FA">
-            Sênior, 10 anos de experiência
-          </Heading>
+            <Heading fontSize={20} fontWeight={400} color="#5DB9FA">
+              Sênior, 10 anos de experiência
+            </Heading>
+          </div>
 
           <p>
             <Text>
@@ -33,33 +35,35 @@ function UserProfile() {
             </Text>
           </p>
 
-          <div className="user-info-container">
-            <div className="user-info__item">
-              <div className="user-info__item__icon">
-                <Pin size={11} />
+          <div>
+            <div className="user-info-container">
+              <div className="user-info__item">
+                <div className="user-info__item__icon">
+                  <Pin size={11} />
+                </div>
+
+                <Text color="#ACACAC">Indaiatuba, SP - Brasil</Text>
               </div>
 
-              <Text color="#ACACAC">Indaiatuba, SP - Brasil</Text>
-            </div>
+              <div className="user-info__item">
+                <div className="user-info__item__icon">
+                  <Email size={10} />
+                </div>
 
-            <div className="user-info__item">
-              <div className="user-info__item__icon">
-                <Email size={10} />
+                <Text color="#ACACAC">bruno@frontacademy.com.br</Text>
               </div>
 
-              <Text color="#ACACAC">bruno@frontacademy.com.br</Text>
-            </div>
+              <div className="user-info__item">
+                <div className="user-info__item__icon">
+                  <Phone size={16} />
+                </div>
 
-            <div className="user-info__item">
-              <div className="user-info__item__icon">
-                <Phone size={16} />
+                <Text color="#ACACAC">+55 11 99999-9999</Text>
               </div>
-
-              <Text color="#ACACAC">+55 11 99999-9999</Text>
             </div>
+
+            <SocialMedia />
           </div>
-
-          <SocialMedia />
         </div>
       </div>
     </Card>

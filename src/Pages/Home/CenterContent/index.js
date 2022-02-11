@@ -1,4 +1,4 @@
-import Card from "../../../Components/Card";
+import Certificates from "../Certificates";
 import LastProjects from "../LastProjects";
 import Technologies from "../Technologies";
 import UserProfile from "../UserProfile";
@@ -15,8 +15,7 @@ function CenterContent() {
       <div className="center-content-container__right">
         <Technologies />
         <LastProjects />
-
-        <Card>Card 3</Card>
+        <Certificates />
       </div>
     </div>
   );

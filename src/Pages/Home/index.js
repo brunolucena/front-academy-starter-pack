@@ -7,7 +7,7 @@ function Home() {
   return (
     <div className="home-container">
       <div className="home-container__content">
-        <div>top</div>
+        <div></div>
 
         <CenterContent />
 

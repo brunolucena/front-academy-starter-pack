@@ -1,11 +1,15 @@
-.user-profile-container__left .user-profile-container__left__user-image {
+.user-profile-container .user-profile-container__left__user-image {
   position: absolute;
   margin-top: -15px;
   transform: translateY(-50%);
 }
 
-.user-profile-container__left .user-profile-container__left__content {
-  margin-top: 65px;
+.user-profile-container .user-profile-container__left__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding-top: 65px;
 }
 
 .user-profile-container .user-info-container {
@@ -25,4 +29,8 @@
   display: flex;
   justify-content: center;
   width: 20px;
+}
+
+.user-profile-container p {
+  margin: 20px 0;
 }
