@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/front-academy-starter-pack/static/css/main.401e601f.css",
-    "main.js": "/front-academy-starter-pack/static/js/main.d8afb97e.js",
-    "static/js/787.cfd8f164.chunk.js": "/front-academy-starter-pack/static/js/787.cfd8f164.chunk.js",
-    "static/media/bruno_alves_lucena.png": "/front-academy-starter-pack/static/media/bruno_alves_lucena.d0e7ffe98f657d33895f.png",
-    "static/media/frontacademy.png": "/front-academy-starter-pack/static/media/frontacademy.8013a860069a74ed096d.png",
-    "static/media/Bruno_Lucena-Resume.pdf": "/front-academy-starter-pack/static/media/Bruno_Lucena-Resume.b2dfc6a30958ab754733.pdf",
-    "static/media/front-academy-logo.png": "/front-academy-starter-pack/static/media/front-academy-logo.a6c10571856202b90c5f.png",
-    "static/media/starter-pack.png": "/front-academy-starter-pack/static/media/starter-pack.31c20c65edc749ffaa1a.png",
-    "static/media/Azonix.woff": "/front-academy-starter-pack/static/media/Azonix.18058c96d53ad2f9f2a3.woff",
-    "index.html": "/front-academy-starter-pack/index.html",
-    "main.401e601f.css.map": "/front-academy-starter-pack/static/css/main.401e601f.css.map",
-    "main.d8afb97e.js.map": "/front-academy-starter-pack/static/js/main.d8afb97e.js.map",
-    "787.cfd8f164.chunk.js.map": "/front-academy-starter-pack/static/js/787.cfd8f164.chunk.js.map"
+    "main.css": "/static/css/main.646ebbba.css",
+    "main.js": "/static/js/main.0de29f80.js",
+    "static/js/787.cfd8f164.chunk.js": "/static/js/787.cfd8f164.chunk.js",
+    "static/media/bruno_alves_lucena.png": "/static/media/bruno_alves_lucena.d0e7ffe98f657d33895f.png",
+    "static/media/frontacademy.png": "/static/media/frontacademy.8013a860069a74ed096d.png",
+    "static/media/Bruno_Lucena-Resume.pdf": "/static/media/Bruno_Lucena-Resume.b2dfc6a30958ab754733.pdf",
+    "static/media/front-academy-logo.png": "/static/media/front-academy-logo.a6c10571856202b90c5f.png",
+    "static/media/starter-pack.png": "/static/media/starter-pack.31c20c65edc749ffaa1a.png",
+    "static/media/Azonix.woff": "/static/media/Azonix.18058c96d53ad2f9f2a3.woff",
+    "index.html": "/index.html",
+    "main.646ebbba.css.map": "/static/css/main.646ebbba.css.map",
+    "main.0de29f80.js.map": "/static/js/main.0de29f80.js.map",
+    "787.cfd8f164.chunk.js.map": "/static/js/787.cfd8f164.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.401e601f.css",
-    "static/js/main.d8afb97e.js"
+    "static/css/main.646ebbba.css",
+    "static/js/main.0de29f80.js"
   ]
 }
