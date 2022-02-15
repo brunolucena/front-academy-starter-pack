@@ -1,7 +1,7 @@
 import Card from "../../../Components/Card";
-import StarterPack from "./assets/starter-pack.png";
-import Heading from "../../../Components/Heading";
 import Certificate from "../../../Components/Certificate";
+import Heading from "../../../Components/Heading";
+import StarterPack from "./assets/starter-pack.png";
 
 import "./styles.css";
 
