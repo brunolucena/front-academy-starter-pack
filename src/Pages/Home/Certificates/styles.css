@@ -9,7 +9,7 @@
 .certificates-container .certificates__content {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   margin-top: 12px;
   padding-right: 85px;
 }

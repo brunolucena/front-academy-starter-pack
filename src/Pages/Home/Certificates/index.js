@@ -1,7 +1,7 @@
 import Card from "../../../Components/Card";
 import Certificate from "../../../Components/Certificate";
 import Heading from "../../../Components/Heading";
-import StarterPack from "./assets/starter-pack.png";
+import StarterPack from "./assets/starter-pack.svg";
 
 import "./styles.css";
 
@@ -20,7 +20,7 @@ function Certificates() {
           <Certificate
             authenticationCode="Autenticação #1929292a1ka191922k1921929aaj"
             imageUrl={StarterPack}
-            link="https://github.com/brunolucena/front-academy"
+            link="https://github.com/brunolucena/front-academy-starter-pack"
             title="STARTER PACK"
             subTitle="Front Academy, 2022"
           />
