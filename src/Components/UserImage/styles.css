@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 5px solid #43B0FF;
+  border: 5px solid #43b0ff;
   border-radius: 50%;
   overflow: hidden;
   height: 125px;
@@ -10,5 +10,5 @@
 }
 
 .user-image-container img {
-  height: 130%;
+  transform: scale(1.3);
 }
