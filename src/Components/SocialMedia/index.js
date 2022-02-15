@@ -15,7 +15,7 @@ function SocialMedia() {
         className="social-media-item"
         rel="noreferrer"
       >
-        <img alt="GitHub" src={GitHub} width={35} />
+        <img alt="GitHub" src={GitHub} />
       </a>
 
       <a
@@ -24,14 +24,14 @@ function SocialMedia() {
         target="_blank"
         rel="noreferrer"
       >
-        <img alt="Linkedin" src={Linkedin} width={28} />
+        <img alt="Linkedin" src={Linkedin} />
       </a>
 
       <a
         href="mailto:bruno.lucenac@gmail.com"
         className="social-media-item"
       >
-        <img alt="Gmail" src={Gmail} width={33} />
+        <img alt="Gmail" src={Gmail} />
       </a>
 
       <a
@@ -40,7 +40,7 @@ function SocialMedia() {
         target="_blank"
         rel="noreferrer"
       >
-        <img alt="CV" src={CV} width={27} />
+        <img alt="CV" src={CV} />
       </a>
     </div>
   );

@@ -15,7 +15,7 @@ function Certificate({
       <img alt={title} src={imageUrl} />
 
       <div className='certificate-right'>
-        <Heading color='#5CFF9B' fontSize={18}>{title}</Heading>
+        <Heading color='#5CFF9B' fontFamily='Azonix Regular' fontSize={17}>{title}</Heading>
         <Heading fontWeight={400} fontSize={18}>{subTitle}</Heading>
         <Text fontSize={13}>{authenticationCode}</Text>
       </div>
