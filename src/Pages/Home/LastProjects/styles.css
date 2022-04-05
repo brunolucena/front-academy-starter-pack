@@ -21,3 +21,9 @@
 .last-projects-container .last-projects__content > *:not(:first-child) {
   margin-top: 17px;
 }
+
+@media screen and (max-width: 500px) {
+  .last-projects-container .last-projects__content {
+    padding-right: 0;
+  }
+}

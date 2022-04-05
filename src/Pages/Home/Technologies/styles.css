@@ -11,3 +11,9 @@
 .techonologies-container .techonologies__content > *:not(:first-child) {
   margin-left: 25px;
 }
+
+@media screen and (max-width: 390px) {
+  .techonologies-container .techonologies__content > *:not(:first-child) {
+    margin-left: 10px;
+  }
+}

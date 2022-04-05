@@ -2,15 +2,18 @@ import Card from "../../../Components/Card";
 import Certificate from "../../../Components/Certificate";
 import Heading from "../../../Components/Heading";
 import StarterPack from "./assets/starter-pack.svg";
+import useIsMobile from "../../../helpers/useIsMobile";
 
 import "./styles.css";
 
 function Certificates() {
+  const isMobile = useIsMobile({ mobileSize: 472 });
+
   return (
     <Card>
       <div className="certificates-container">
         <div className="certificates__header">
-          <Heading fontSize={24}>Certificados</Heading>
+          <Heading fontSize={isMobile ? 20 : 24}>Certificados</Heading>
           <Heading color="#6A6A6A" fontSize={16}>
             VER TODOS
           </Heading>

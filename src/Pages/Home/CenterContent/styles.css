@@ -13,3 +13,14 @@
 .center-content-container .center-content-container__right > *:not(:first-child) {
   margin-top: 17px;
 }
+
+@media screen and (max-width: 830px) {
+  .center-content-container {
+    flex-direction: column;
+  }
+
+  .center-content-container .center-content-container__right {
+    margin-top: 17px;
+    margin-left: 0;
+  }
+}

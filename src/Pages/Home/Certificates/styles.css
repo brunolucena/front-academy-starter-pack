@@ -16,3 +16,9 @@
 .certificates-container .certificates__content > *:not(:first-child) {
   margin-top: 17px;
 }
+
+@media screen and (max-width: 500px) {
+  .certificates-container .certificates__content {
+    padding-right: 0;
+  }
+}

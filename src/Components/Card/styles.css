@@ -4,4 +4,11 @@
   background-color: #0f0f0f;
   border: 1px solid #707070;
   border-radius: 10px;
+  min-width: 340px;
+}
+
+@media screen and (max-width: 380px) {
+  .card-container {
+    min-width: initial;
+  }
 }

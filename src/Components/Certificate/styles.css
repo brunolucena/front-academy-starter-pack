@@ -13,4 +13,5 @@ a.certificate-container img {
 
 a.certificate-container .certificate-right {
   margin-left: 20px;
+  word-break: break-word;
 }

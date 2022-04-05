@@ -10,16 +10,22 @@
   justify-content: center;
   max-width: 1130px;
   margin: 0 auto;
-  padding-top: 62px;
+  padding: 62px 10px 0;
   min-height: 100vh;
 }
 
 .home-container .home-container__content .home-container__content__bottom {
-    display: flex;
-    align-items: center;
-    margin: 20px auto;
+  display: flex;
+  align-items: center;
+  margin: 20px auto;
 }
 
 .home-container .home-container__content .home-container__content__bottom .logo-container {
   margin-left: 10px;
+}
+
+@media screen and (max-width: 380px) {
+  .home-container .home-container__content .home-container__content__bottom {
+    flex-direction: column;
+  }
 }
